@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gnatenko</title>
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon"> 
+		<meta charset="UTF-8">
+    
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/sbimenu.css" />
+		
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=News+Cycle&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|McLaren' rel='stylesheet' type='text/css' />
+			
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.bgImageMenu.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/jquery.fullPage.min.js"></script>
+		<link href="js/jquery.fullPage.css" type="text/css" rel="stylesheet">
+
+    </head>
+    <body>
+	  <div id="fullpage">
+		
+		<section class="section">
+		<div class="container">
+			<div class="header">
+				<section class="main">
+				
+				<h2 class="cs-text">
+					<span>A</span>
+					<span>l</span>
+					<span>e</span>
+					<span>x</span>
+					<span>a</span>
+					<span>n</span>
+					<span>d</span>
+					<span>e</span>
+					<span>r</span>
+					<span>CV</span>
+				</h2>
+				
+			</section>
+			</div>
+		</div>
+	
+				<div id="sbi_container" class="sbi_container">
+					<div class="sbi_panel" data-bg="images/2.gif">
+						<a href="skill/index.html" class="sbi_label"><p id="blink">&#171;</p></a>
+						
+					</div>
+					<div class="sbi_panel" data-bg="images/3.gif">
+						<a href="Personal_Information/index.html" class="sbi_label"><p id="blink">&#171; &#187;</p></a>
+						
+					</div>
+					<div class="sbi_panel" data-bg="images/4.gif">
+						<a href="contact/index.html" class="sbi_label"><p id="blink">&#187;</p></a>
+						
+					</div>
+				</div>
+		</section>
+				
+		<section class="section">
+				<div class="Personal_Information">
+					<h2 class="caption">HI! I’m Alexander</h2>
+						<div class="portrait ">
+						</div>
+					<div class="text">
+					<p> I'm looking projects that will allow me to creating innovative websites and applications.I learned  JavaScript, HTML/CSS3, JQwery.  
+					If you would like to work with me in the future, feel free to send me an email or call.</p>
+					
+					</div>
+				</div>
+				
+		</section>
+		
+				
+
+		</div>
+		
+		<script type="text/javascript">
+			$(function() {
+				$('#sbi_container').bgImageMenu({
+					defaultBg	: 'images/1.gif',
+					border	: 1,
+					type		: {
+						mode		: 'seqFade',
+						speed		: 250,
+						easing		: 'jswing',
+						seqfactor	: 100
+					}
+				});
+			});
+		</script>
+			<script>
+				$(document).ready(function () {
+				$('#fullpage').fullpage();  
+				});
+			</script>
+    </body>
+</html>
